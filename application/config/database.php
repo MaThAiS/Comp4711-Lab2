@@ -75,13 +75,13 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
+	'hostname' => 'comp4711.local',
+	'username' => 'root',
 	'password' => '',
-	'database' => '',
+	'database' => 'lab2',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
-	'pconnect' => FALSE,
+	'pconnect' => TRUE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,
 	'cachedir' => '',
